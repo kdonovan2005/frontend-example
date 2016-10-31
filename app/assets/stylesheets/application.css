@@ -17,52 +17,52 @@
  /* adds all Electrolux Fonts from Dropbox folder */
  @font-face {
    font-family: 'ElectroluxSans_Bold';
-   src: url(/fonts/ElectroluxSans_Bold.otf);
+   src: url(fonts/ElectroluxSans_Bold.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_light';
-   src: url(/fonts/ElectroluxSans_light.otf);
+   src: url(fonts/ElectroluxSans_light.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Oblique_Bold';
-   src: url(/fonts/ElectroluxSans_Oblique_Bold.otf);
+   src: url(fonts/ElectroluxSans_Oblique_Bold.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Oblique_Light';
-   src: url(/fonts/ElectroluxSans_Oblique_Light.otf);
+   src: url(fonts/ElectroluxSans_Oblique_Light.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Oblique_Regular';
-   src: url(/fonts/ElectroluxSans_Oblique_Regular.otf);
+   src: url(fonts/ElectroluxSans_Oblique_Regular.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Oblique_Semibold';
-   src: url(/fonts/ElectroluxSans_Oblique_Semibold.otf);
+   src: url(fonts/ElectroluxSans_Oblique_Semibold.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Oblique_Thin';
-   src: url(/fonts/ElectroluxSans_Oblique_Thin.otf);
+   src: url(fonts/ElectroluxSans_Oblique_Thin.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Regular';
-   src: url(/fonts/ElectroluxSans_Regular.otf);
+   src: url(fonts/ElectroluxSans_Regular.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Semibold';
-   src: url(/fonts/ElectroluxSans_Semibold.otf);
+   src: url(fonts/ElectroluxSans_Semibold.otf);
  }
 
  @font-face {
    font-family: 'ElectroluxSans_Thin';
-   src: url(/fonts/ElectroluxSans_Thin.otf);
+   src: url(fonts/ElectroluxSans_Thin.otf);
  }
 
  /* sets background color of application to Electrolux blue,
