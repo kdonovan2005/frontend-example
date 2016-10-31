@@ -14,9 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= reqire feature-select.js
-//= reqire keyboard-slider.js
-//= reqire keyboard.js
-//= reqire my-list-modal.js
-//= reqire product-tabs.js
-//= reqire slider.js

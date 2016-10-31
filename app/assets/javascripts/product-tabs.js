@@ -20,13 +20,13 @@ function openTab(evt, tabName) {
 }
 
 window.onload = function() {
-  //default open tab
-  defaultOpen = document.getElementById("defaultOpen");
-  defaultOpen.click();
-
-  //default open feature
-  defaultOpenFeature = document.getElementById("defaultOpenFeature");
-  defaultOpenFeature.click();
+  // //default open tab
+  // defaultOpen = document.getElementById("defaultOpen");
+  // defaultOpen.click();
+  //
+  // //default open feature
+  // defaultOpenFeature = document.getElementById("defaultOpenFeature");
+  // defaultOpenFeature.click();
 
   //my-list-modal
   var modal = document.getElementsByClassName("my-list-modal")[0];
@@ -36,7 +36,6 @@ window.onload = function() {
   var close = document.getElementsByClassName("close-modal-button")[0]
 
   btn.onclick = function() {
-    debugger
     modal.style.display = "block";
   }
 

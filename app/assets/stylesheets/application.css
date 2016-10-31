@@ -112,6 +112,11 @@
    overflow: hidden;
  }
 
+ #main-image {
+   max-width: 100%;
+   height: auto;
+ }
+
  /* styles feautre suite section */
  .feature-suite {
    border-style: none;
