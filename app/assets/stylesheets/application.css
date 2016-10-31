@@ -13,3 +13,242 @@
  *= require_tree .
  *= require_self
  */
+
+ /* adds all Electrolux Fonts from Dropbox folder */
+ @font-face {
+   font-family: 'ElectroluxSans_Bold';
+   src: url(/fonts/ElectroluxSans_Bold.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_light';
+   src: url(/fonts/ElectroluxSans_light.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Oblique_Bold';
+   src: url(/fonts/ElectroluxSans_Oblique_Bold.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Oblique_Light';
+   src: url(/fonts/ElectroluxSans_Oblique_Light.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Oblique_Regular';
+   src: url(/fonts/ElectroluxSans_Oblique_Regular.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Oblique_Semibold';
+   src: url(/fonts/ElectroluxSans_Oblique_Semibold.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Oblique_Thin';
+   src: url(/fonts/ElectroluxSans_Oblique_Thin.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Regular';
+   src: url(/fonts/ElectroluxSans_Regular.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Semibold';
+   src: url(/fonts/ElectroluxSans_Semibold.otf);
+ }
+
+ @font-face {
+   font-family: 'ElectroluxSans_Thin';
+   src: url(/fonts/ElectroluxSans_Thin.otf);
+ }
+
+ /* sets background color of application to Electrolux blue,
+ default font color to white, and default font to ES_Reg */
+ body {
+   background-color: rgb(7, 23, 47);
+   color: #fff;
+   font-family: 'ElectroluxSans_Regular';
+   margin: 0;
+   padding: 0;
+ }
+
+ /* style ul to have default of no bullet points */
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ section {
+   margin: 0;
+   padding: 0;
+ }
+
+ div {
+   margin: 0;
+   border-style: none;
+ }
+
+ /* removes padding and margin so application reaches screen edge */
+ .wrapper {
+   top: 0;
+   left: 0;
+   padding: 0;
+   margin: 0;
+ }
+
+ /* styles the header image */
+ .header-image {
+   width: 100%;
+   border-style: none;
+   padding: 0;
+   margin: 0;
+   position: relative;
+   max-height: 500px;
+   min-width: 100%;
+   overflow: hidden;
+ }
+
+ /* styles feautre suite section */
+ .feature-suite {
+   border-style: none;
+   padding: 0;
+   margin: 0;
+   background-color: rgb(235, 104, 82);
+ }
+
+ /* aligns to center */
+ .align-center {
+   margin: auto;
+   width: 50%;
+   text-align: center;
+   padding-top: 10px;
+ }
+
+ /* positions header text */
+ #brand-header-text {
+   font-family: 'ElectroluxSans_Thin';
+   font-size: 3.5em;
+   position: absolute;
+   top: 35%;
+   left: 5%;
+   width: 100%;
+   height: auto;
+ }
+
+ /* positions the Electrolux logo */
+ #brand-logo {
+   position: absolute;
+   top: 80%;
+   left: 0%;
+   bottom: 10%;
+   height: 7%;
+   background-color: #fff;
+   color: #000;
+   padding: 0.5% 2%;
+ }
+
+ /* positions the category name */
+ .category-name {
+   position: absolute;
+   top: 80%;
+   left: 0%;
+   bottom: 10%;
+   text-align: center;
+   font-family: 'ElectroluxSans_Bold';
+   line-height: normal;
+ }
+
+ .category-name-text {
+   padding: 10%;
+   margin: 0;
+   background-color: #fff;
+   color: #000;
+   white-space: nowrap;
+ }
+
+ /* styles category and sub category images */
+ .left-hero {
+   background-color: #fff;
+   padding: 0;
+   height: 110vh;
+   overflow: hidden;
+   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.6);
+ }
+
+ .left-hero-image {
+   width: 100%;
+ }
+
+ .right-sub-category, .right-hero {
+   background-color: #fff;
+   width: 100%;
+   min-height: 110vh;
+   max-height: 110vh;
+ }
+
+ .right-hero {
+   overflow: hidden;
+ }
+
+ .right-sub-category {
+   overflow: scroll;
+ }
+
+ .box-shadow-left {
+   box-shadow: -10px 0px 15px 2px rgba(0,0,0,0.2), 0px 10px 20px 0px rgba(0,0,0,0.6);
+ }
+
+ .sub-category-title {
+   color: rgb(235, 104, 82);
+   font-family: 'ElectroluxSans_Bold';
+   padding-left: 8%;
+ }
+
+ .grey-bg {
+   background-color: rgb(217,217,217);
+ }
+
+ .product-detail-name {
+   color: rgb(75,75,75);
+   font-family: 'ElectroluxSans_Bold';
+   padding: 3% 0 0 3%;
+   max-width: 70%;
+   margin: 0;
+ }
+
+ .product-model-number {
+   color: rgb(100,100,100);
+   font-family: 'ElectroluxSans_Thin';
+   padding-left: 3%;
+   margin: 0;
+ }
+
+ .available-in, .available-color {
+   color: rgb(100,100,100);
+   font-size: 0.7em;
+   margin: 0 0 1% 0;
+ }
+
+ .available-in {
+   padding: 0 0 0 3%;
+ }
+
+ .available-color-text {
+   padding: 0;
+   display: inline;
+   margin: 0 0 1% 0;
+ }
+
+ #color-circle {
+   display: block;
+   float: left;
+   margin: 0 2% 0 0;
+   width: 12px;
+   height: 12px;
+   border-radius: 6px;
+   background-color: rgb(129, 129, 129);
+ }
