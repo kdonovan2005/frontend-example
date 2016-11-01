@@ -2,6 +2,10 @@ window.onload = function() {
   initPage();
 };
 
+$(document).on('page:load', function() {
+  initPage();
+});
+
 function initPage() {
   //my-list-modal
   var modal = document.getElementsByClassName("my-list-modal")[0];
