@@ -19,7 +19,7 @@ document.addEventListener("click", function(e) {
   }
 
   // replace original image src with new image src
-  var img = document.getElementById("feature-image");
+  var img = document.getElementById("feature-pic");
   img.src = newSrc;
 
   //get and replace feature name

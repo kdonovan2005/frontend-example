@@ -95,3 +95,10 @@ ul.tab li a:focus, .active {
   margin: 0;
   overflow: hidden;
 }
+
+#feature-pic {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}

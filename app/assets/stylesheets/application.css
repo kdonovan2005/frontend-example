@@ -186,7 +186,8 @@
  }
 
  .left-hero-image {
-   height: 100%;
+   width: 100%;
+   min-height: 100%;
  }
 
  .right-sub-category, .right-hero {
@@ -257,5 +258,5 @@
    width: 12px;
    height: 12px;
    border-radius: 6px;
-   background-color: rgb(129, 129, 129);
+   background-color: #000;
  }

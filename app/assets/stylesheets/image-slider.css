@@ -1,10 +1,18 @@
 /* styles the images to fill the entire div */
-.slideshow-container, .slideshow-container-sm img, .fp-slideshow-container img, .slideshow-container-large-gallery img {
+.slideshow-container, .fp-slideshow-container img, .slideshow-container-large-gallery img {
   width: 100%;
   height: 100%;
   display: block;
   position: absolute;
   border-style: none;
+}
+
+.slideshow-container-sm img {
+  height: 100%;
+  display: block;
+  position: absolute;
+  border-style: none;
+  left: 25%;
 }
 
 .feature-suite img {
