@@ -1,5 +1,4 @@
 function initPage() {
-  alert(window.onload)
   //my-list-modal
   var modal = document.getElementsByClassName("my-list-modal")[0];
 
