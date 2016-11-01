@@ -1,4 +1,4 @@
-function initPage() {
+var initPage = function() {
   //my-list-modal
   var modal = document.getElementsByClassName("my-list-modal")[0];
 
@@ -23,6 +23,5 @@ function initPage() {
   defaultOpenFeature.click();
 }
 
-window.onload = function() {
-  initPage();
-};
+$(document).ready(initPage);
+$(document).on('turbolinks:load', initPage);
