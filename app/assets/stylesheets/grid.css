@@ -132,6 +132,15 @@
   width: auto;
 }
 
+.flex-item-mylist a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex-item-mylist a:clicked {
+  color: #000;
+}
+
 /* Grid */
 .container {
 	margin: 0 auto;
