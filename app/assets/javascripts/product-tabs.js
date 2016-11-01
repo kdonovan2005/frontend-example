@@ -44,6 +44,6 @@ function initPage() {
   defaultOpenFeature.click();
 }
 
-window.onload = function() {
+window.ready = function() {
   initPage();
 };
