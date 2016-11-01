@@ -101,8 +101,9 @@
 .flex-item img {
   padding: 0;
   margin: 0;
-  width: auto;
-  height: 200px;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
 }
 
 .flex-item-mylist img {
@@ -124,6 +125,11 @@
 
 .flex-item a img {
   width: 100%;
+}
+
+.flex-item-sm a img {
+  height: 150px;
+  width: auto;
 }
 
 /* Grid */

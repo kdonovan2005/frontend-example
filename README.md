@@ -1,24 +1,9 @@
-# README
+This a semi-working example of a frontend template that I created for a client. All of the client's photos and product images have been changed. The logo and name of the business has also been changed.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The current product images are pictures from Bloomingdales.com, the logo and name of the business were made up (any similarity to a real business is completely coincidental.)
 
-Things you may want to cover:
+This application is intended to showcase the html, css, and javascript used to create the components of the frontend. As such, there is no backend functionality. All products have been manually loaded into the layout.
 
-* Ruby version
+A note on links -- all of the main navigation categories will link to the dresses page. All of the sub-category links from the categories page will link to 'casual dresses'.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The 'my list' modal will is pre-populated with 'saved' items. The clear button will not work. The e-mail function also does not work.
