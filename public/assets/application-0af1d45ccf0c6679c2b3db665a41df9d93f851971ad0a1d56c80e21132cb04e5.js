@@ -12304,15 +12304,7 @@ function showSlides(n) {
   dots[slideIndex - 1 ].className += " active";
 }
 ;
-window.onload = function() {
-  initPage();
-};
-
-$(document).on('page:load', function() {
-  initPage();
-});
-
-function initPage() {
+var initPage = function() {
   //my-list-modal
   var modal = document.getElementsByClassName("my-list-modal")[0];
 
@@ -12336,7 +12328,9 @@ function initPage() {
   defaultOpenFeature = document.getElementById("defaultOpenFeature");
   defaultOpenFeature.click();
 }
-;
+
+$(document).ready(initPage);
+$(document).on('turbolinks:load', initPage);
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
