@@ -1,5 +1,3 @@
-document.addEventListener('turbolinks:load', function() {
-  console.log("Is it even getting here?")
   //my-list-modal
   var modal = document.getElementsByClassName("my-list-modal")[0];
 
@@ -22,4 +20,3 @@ document.addEventListener('turbolinks:load', function() {
   //default open feature
   defaultOpenFeature = document.getElementById("defaultOpenFeature");
   defaultOpenFeature.click();
-});
