@@ -22,3 +22,7 @@ var initPage = function() {
   defaultOpenFeature = document.getElementById("defaultOpenFeature");
   defaultOpenFeature.click();
 }
+
+$(document).ready(function() {
+  initPage();
+});
