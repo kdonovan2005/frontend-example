@@ -1,18 +1,18 @@
 var initPage = function() {
   //my-list-modal
-  var modal = document.getElementsByClassName("my-list-modal")[0];
-
-  var btn = document.getElementById("my-list-image");
-
-  var close = document.getElementsByClassName("close-modal-button")[0]
-
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-
-  close.onclick = function() {
-    modal.style.display = "none";
-  }
+  // var modal = document.getElementsByClassName("my-list-modal")[0];
+  //
+  // var btn = document.getElementById("my-list-image");
+  //
+  // var close = document.getElementsByClassName("close-modal-button")[0]
+  //
+  // btn.onclick = function() {
+  //   modal.style.display = "block";
+  // }
+  //
+  // close.onclick = function() {
+  //   modal.style.display = "none";
+  // }
 
   //default open tab
   defaultOpen = document.getElementById("defaultOpen");
@@ -26,3 +26,26 @@ var initPage = function() {
 $(document).ready(function() {
   initPage();
 });
+
+
+document.addEventListener("click", function(e) {
+  var target = e.target;
+  var modal = document.getElementsByClassName("my-list-modal")[0];
+
+  var btn = document.getElementById("my-list-image");
+
+  var close = document.getElementsByClassName("close-modal-button")[0]
+
+  if (!target === modal) {
+    return;
+  }
+
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  close.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+})
