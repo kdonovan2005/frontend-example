@@ -36,4 +36,4 @@ document.addEventListener("click", function(e) {
 
   //style target element text as orange
   target.style.color = "rgb(235,104,82)"
-})
+});
