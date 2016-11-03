@@ -18,3 +18,13 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+document.addEventListener("onload", function() {
+  //default open tab
+  defaultOpen = document.getElementById("defaultOpen");
+  defaultOpen.click();
+
+  //default open feature
+  defaultOpenFeature = document.getElementById("defaultOpenFeature");
+  defaultOpenFeature.click();
+});
